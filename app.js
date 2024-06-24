@@ -3,7 +3,7 @@
 //JUEGO DE LA CLASE
 alert("hola Mundo, Juega!!"); // Breinner
 let numeroMaximo=100;
-let  numero_Secreto = 5//parseInt(Math.floor(Math.random()*numeroMaximo+1)); //  numero randon
+let  numero_Secreto = parseInt(Math.floor(Math.random()*numeroMaximo+1)); //  numero randon
 var numero_Usuario= prompt(`ingresa un numero del 1-${numeroMaximo}`);
 var contador=0;
 let maximoIntentos= 6;
